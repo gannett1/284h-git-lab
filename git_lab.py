@@ -65,3 +65,8 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
+def is_even(n):
+    if n%2 == 0 :
+        return True
+    return False
