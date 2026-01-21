@@ -64,3 +64,7 @@ def is_even(n):
     if n%2 == 0 :
         return True
     return False
+
+def multiply_numbers(a, b): 
+    """Returns the product of two numbers.""" 
+    return a * b
