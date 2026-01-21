@@ -49,9 +49,11 @@ class TestUtils(unittest.TestCase):
     
     def test_hello(self):
         self.assertTrue(2)
+        
     def test_multiply_numbers(self): 
         self.assertEqual(multiply_numbers(2, 3), 6) 
         self.assertEqual(multiply_numbers(-1, 1), -1)
+        self.assertNotEqual(multiply_numbers(1, 1), -1)
 
 if __name__ == '__main__':
     unittest.main()
